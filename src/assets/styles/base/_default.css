@@ -1,3 +1,9 @@
+*:focus,
+*:focus-visible {
+  outline: var(--sys-outline);
+  outline-offset: var(--sys-outline-offset);
+}
+
 body {
   font-family: var(--sys-font-family-primary), var(--sys-font-family-fallback);
   color: var(--sys-color-on-surface);
